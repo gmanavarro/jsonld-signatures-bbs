@@ -11,6 +11,11 @@
  * limitations under the License.
  */
 
+
+// @ts-ignore
+if (typeof Buffer === 'undefined') { // @ts-ignore
+  global.Buffer = require('buffer').Buffer;
+}
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import jsonld from "jsonld";
 import { suites, SECURITY_CONTEXT_URL } from "jsonld-signatures";
