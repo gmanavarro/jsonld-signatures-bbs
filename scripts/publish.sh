@@ -13,7 +13,7 @@ export PATH="$PATH:node_modules/.bin"
 new_version=$(node -pe "require('./package.json').version")
 
 # Version to this new unstable version
-yarn publish --no-git-tag-version --new-version $new_version
+yarn publish --no-git-tag-version --new-version $new_version --access=public
 
 # Reset changes to the package.json
 git checkout -- package.json
