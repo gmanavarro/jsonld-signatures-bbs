@@ -1200,6 +1200,15 @@ base@^0.11.1:
     mixin-deep "^1.2.0"
     pascalcase "^0.1.1"
 
+bbs-signatures@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/bbs-signatures/-/bbs-signatures-1.0.0.tgz#51de33d2c6720ab0465e786e0ab9c39f3e7ee744"
+  integrity sha512-nBbl5bKiho7uR+upA0TiBdFlWxFvoASynDywcKwNAfK6J7HE0Mnde9NUdeXFrc0ey3UE7uZhKhMsb3+epsVBYw==
+  dependencies:
+    "@stablelib/random" "1.0.0"
+  optionalDependencies:
+    node-bbs-signatures "0.13.0"
+
 bcrypt-pbkdf@^1.0.0:
   version "1.0.2"
   resolved "https://registry.npmjs.org/bcrypt-pbkdf/-/bcrypt-pbkdf-1.0.2.tgz#a4301d389b6a43f9b67ff3ca11a3f6637e360e9e"
@@ -4467,6 +4476,15 @@ nice-try@^1.0.4:
   resolved "https://registry.npmjs.org/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
   integrity sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ==
 
+node-bbs-signatures@0.13.0:
+  version "0.13.0"
+  resolved "https://registry.yarnpkg.com/node-bbs-signatures/-/node-bbs-signatures-0.13.0.tgz#2625812d77fe197dec535f50d4445b86f79fe0b3"
+  integrity sha512-IMJRRyFeRw53J5G3CGAhygqMm9wqvkYGRYa0XYsdt4ttERYVwsNS4yX/IOnM3pbZXQyHqOobEaQ+Si1ryyjNhg==
+  dependencies:
+    neon-cli "0.8.2"
+    node-pre-gyp "0.17.0"
+    react-native-path "^0.0.5"
+
 node-forge@^0.9.1, node-forge@~0.9.0:
   version "0.9.1"
   resolved "https://registry.npmjs.org/node-forge/-/node-forge-0.9.1.tgz#775368e6846558ab6676858a4d8c6e8d16c677b5"
@@ -5068,6 +5086,11 @@ react-is@^16.12.0:
   version "16.13.1"
   resolved "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
+
+react-native-path@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/react-native-path/-/react-native-path-0.0.5.tgz#a04e4b73a535a8a7cf15c6e760e27db7789afb13"
+  integrity sha1-oE5Lc6U1qKfPFcbnYOJ9t3ia+xM=
 
 read-pkg-up@^1.0.1:
   version "1.0.1"
