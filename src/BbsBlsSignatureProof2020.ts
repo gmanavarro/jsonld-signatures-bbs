@@ -10,11 +10,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+// @ts-nocheck
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import jsonld from "jsonld";
-import { suites, SECURITY_CONTEXT_URL } from "jsonld-signatures";
-import { blsCreateProof, blsVerifyProof } from "@mattrglobal/bbs-signatures";
+import { suites, SECURITY_CONTEXT_URL } from "@gmanavarro/jsonld-signatures";
+import { blsCreateProof, blsVerifyProof } from "@gmanavarro/bbs-signatures";
 import {
   DeriveProofOptions,
   DidDocumentPublicKey,
@@ -25,7 +26,7 @@ import {
 import { BbsBlsSignature2020 } from "./BbsBlsSignature2020";
 import { randomBytes } from "@stablelib/random";
 import { VerifyProofResult } from "./types/VerifyProofResult";
-import { Bls12381G2KeyPair } from "@mattrglobal/bls12381-key-pair";
+import { Bls12381G2KeyPair } from "@gmanavarro/bls12381-key-pair";
 
 export class BbsBlsSignatureProof2020 extends suites.LinkedDataProof {
   constructor({ useNativeCanonize, key, LDKeyClass }: any = {}) {

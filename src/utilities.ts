@@ -8,7 +8,7 @@
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
-import { SECURITY_CONTEXT_URL } from "jsonld-signatures";
+import { SECURITY_CONTEXT_URL } from "@gmanavarro/jsonld-signatures";
 import jsonld from "jsonld";
 import { GetProofsOptions, GetProofsResult, GetTypeOptions } from "./types";
 

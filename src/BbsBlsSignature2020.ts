@@ -11,6 +11,7 @@
  * limitations under the License.
  */
 
+// @ts-nocheck
 
 // @ts-ignore
 if (typeof Buffer === 'undefined') { // @ts-ignore
@@ -18,7 +19,7 @@ if (typeof Buffer === 'undefined') { // @ts-ignore
 }
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import jsonld from "jsonld";
-import { suites, SECURITY_CONTEXT_URL } from "jsonld-signatures";
+import { suites, SECURITY_CONTEXT_URL } from "@gmanavarro/jsonld-signatures";
 import {
   SignatureSuiteOptions,
   CreateProofOptions,
@@ -29,7 +30,7 @@ import {
   SuiteSignOptions
 } from "./types";
 import { w3cDate } from "./utilities";
-import { Bls12381G2KeyPair } from "@mattrglobal/bls12381-key-pair";
+import { Bls12381G2KeyPair } from "@gmanavarro/bls12381-key-pair";
 
 /**
  * A BBS+ signature suite for use with BLS12-381 key pairs

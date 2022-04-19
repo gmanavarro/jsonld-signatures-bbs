@@ -14,7 +14,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { getProofs, getTypeInfo } from "./utilities";
 import jsonld from "jsonld";
-import { SECURITY_PROOF_URL } from "jsonld-signatures";
+import { SECURITY_PROOF_URL } from "@gmanavarro/jsonld-signatures";
 
 /**
  * Derives a proof from a document featuring a supported linked data proof
